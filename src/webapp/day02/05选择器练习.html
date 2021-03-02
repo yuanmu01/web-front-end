@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>222</title>b1
+    <style>
+        #b1{
+            background-color: pink;
+        }
+        .a1{
+            color: green;
+        }
+        ul,a{
+            background-color: blue;
+        }
+        /*未访问状态*/
+        a:link{
+            color: green;
+        }
+        /*访问状态*/
+        a:visited{
+            color: blue;
+        }
+        /*悬停状态*/
+        a:hover{
+            color: red;
+        }
+        /*点击状态*/
+        a:active{
+            color:yellow;
+        }
+        input[type="text"]{
+            color: red;
+        }
+        input[type="password"]{
+            background-color: green;
+        }
+       div div span{
+            color: green;
+        }
+       body>div>div>span{
+           background-color: red;
+       }
+    </style>
+</head>
+<body>
+<div id="b1">刘备</div><div>关羽</div><div class="a1">张飞</div>
+<span>悟空</span><span>八戒</span><span class="a1">沙僧</span>
+<ul>
+    <li>水煮鱼</li><li>红烧鱼</li><li class="a1">黄焖鸡</li>
+</ul>
+<input type="text"><input type="password">
+<a href="http://www.baidu.com">百度</a>
+<div>
+<span>s1</span>
+<div><span>s2</span></div>
+<div>
+    <span>s3</span>
+    <div><span>s4</span></div>
+</div>
+</div>
+</body>
+</html>
