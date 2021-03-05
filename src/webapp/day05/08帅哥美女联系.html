@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="帅哥" onclick="myfn(1)">
+<input type="button" value="美女" onclick="myfn(2)">
+<div id="d1"></div>
+<script>
+    function myfn(x){
+       /* switch (x){
+            case 1:d1.innerHTML += "<img src='../day01/index_15.gif'>"
+                break;
+            case 2:d1.innerHTML += "<img src='../day01/banner.jpg'>"
+                break;
+        }*/
+
+        let imgName = x==1?"../day01/index_15.gif":"../day01/banner.jpg";
+        d1.innerHTML += "<img src='"+imgName+"'>"
+
+    }
+</script>
+</body>
+</html>
